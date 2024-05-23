@@ -1,4 +1,4 @@
-services: render
+services:
   - type: web
     name: hello-world # the name of this service, eg your app name
     env: ruby # this app is written in ruby
