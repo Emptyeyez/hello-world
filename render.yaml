@@ -1,5 +1,5 @@
 services:
-  - type: web service 
+  - type: web
     name: hello-world-new
     env: ruby
     plan: free
