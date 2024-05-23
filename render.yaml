@@ -1,7 +1,9 @@
+# Exported from Render on 2024-05-23T02:38:15Z
 services:
-  - type: web
-    name: hello-world # the name of this service, eg your app name
-    env: ruby # this app is written in ruby
-    plan: free # make sure to set this to free or you'll get billed $$$
-    buildCommand: "./bin/render-build.sh" # we already created these two files for you
-    startCommand: "./bin/render-start.sh" 
+- type: web
+  name: hello-world
+  runtime: static
+  repo: https://github.com/Emptyeyez/hello-world
+  buildCommand: bundle install
+  staticPublishPath: build
+version: "1"
