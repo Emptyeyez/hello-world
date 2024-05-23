@@ -1,4 +1,4 @@
-services:
+services: 
   - type: web
     name: hello-world # the name of this service, eg hello-world
     env: ruby # this app is written in ruby
