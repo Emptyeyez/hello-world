@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: hello-world-new
+    name: eso-website
     env: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
