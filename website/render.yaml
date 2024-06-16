@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: eso-website
+    name: fathers-day
     env: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
